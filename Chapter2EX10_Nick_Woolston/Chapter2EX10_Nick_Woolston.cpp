@@ -17,7 +17,15 @@ const int totalGallons = 15;
 const int totalMiles = 375;
 int main()
 {
-    cout << "A car that can drive 375 miles with 15 gallons of gas gets " << totalMiles / totalGallons << " miles per gallon.";
+    cout << "A car that can drive 375 miles with 15 gallons of gas gets " << totalMiles / totalGallons << " miles per gallon.\n\n";
+    double userGallons;
+    cout << "Now try creating a MPG calculation with your own variables.\nFirst start by entering the amount of gallons the vehicle has: ";
+    cin >> userGallons;
+    cout << endl;
+    double userMiles;
+    cout << "Now enter the amout of miles the vehicle will traverse: ";
+    cin >> userMiles;
+    cout << "Your vehicle, which can travel " << userMiles << " miles with " << userGallons << " gallons has a MPG of: " << userMiles / userGallons;
 
 }
 
