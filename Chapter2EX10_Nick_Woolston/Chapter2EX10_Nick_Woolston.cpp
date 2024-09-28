@@ -25,7 +25,7 @@ int main()
     double userMiles;
     cout << "Now enter the amout of miles the vehicle will traverse: ";
     cin >> userMiles;
-    cout << "Your vehicle, which can travel " << userMiles << " miles with " << userGallons << " gallons has a MPG of: " << userMiles / userGallons;
+    cout << "Your vehicle, which can travel " << userMiles << " miles with " << userGallons << " gallons, has a MPG of: " << userMiles / userGallons;
 
 }
 
